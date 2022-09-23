@@ -1,7 +1,12 @@
-#include <stdio.h>
+#include <iostream>
+
+
 
 
 int main(){
-  printf("Hello world\n");
+  char a = 'e';
+  char hello[] = "Hello world\n";
+  std::cout << hello << " tok " << a << std::endl;
+
   return 0;
 }
